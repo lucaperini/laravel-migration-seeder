@@ -19,7 +19,7 @@
                                 <h6 class="card-subtitle mb-3 ">Codice Treno: <br>{{ $train->codice_treno }}</h6>
                                 <h6 class="card-subtitle mb-3 ">Numero Carrozze: <br>{{ $train->numero_carrozze}}</h6>
                                 // <p class="card-text">Note: Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                <a href="" class="card-link">{{ $train->azienda}}</a>
+                                <a href="/{{$train->id}}" class="card-link">Dettaglio Treno</a>
                             </div>
                         </div>
                     @endforeach
