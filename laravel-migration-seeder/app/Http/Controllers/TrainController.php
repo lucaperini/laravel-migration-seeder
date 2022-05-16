@@ -10,7 +10,7 @@ class TrainController extends Controller
 {
     public function index(){
 
-        $trains = Train::all();
+        $trains = Train::orderBy('orario_di_partenza', 'desc')->paginate(12);
 
         return view('trains.index', ["trains" => $trains]);
     }
