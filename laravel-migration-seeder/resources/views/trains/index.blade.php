@@ -13,12 +13,12 @@
                             <div class="card-body mb-5">
                                 <h5 class="card-title mb-3">{{ $train->azienda }}</h5>
                                 <h6 class="card-subtitle mb-3">Stazione di partenza:<br>{{ $train->stazione_di_partenza }}</h6>
-                                <h6 class="card-subtitle mb-3 text-capitalize">Stazione di arrivo:<br>{{ $train->stazione_di_arrivo }}</h6>
+                                <h6 class="card-subtitle mb-3 text-capitalize">Stazione di arrivo:<br>{{ $train->stazione_di_arrivo}}</h6>
                                 <h6 class="card-subtitle mb-3 ">Orario di partenza: <br>{{ $train->orario_di_partenza }}</h6>
                                 <h6 class="card-subtitle mb-3 ">Orario di arrivo: <br>{{ $train->orario_di_arrivo }}</h6>
                                 <h6 class="card-subtitle mb-3 ">Codice Treno: <br>{{ $train->codice_treno }}</h6>
-                                <h6 class="card-subtitle mb-3 ">Numero Carrozze: <br>{{ $train->numero_carrozze }}</h6>
-                                <p class="card-text">Note: Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                <h6 class="card-subtitle mb-3 ">Numero Carrozze: <br>{{ $train->numero_carrozze}}</h6>
+                                // <p class="card-text">Note: Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                                 <a href="#" class="card-link">{{ $train->azienda }}</a>
                             </div>
                         </div>
