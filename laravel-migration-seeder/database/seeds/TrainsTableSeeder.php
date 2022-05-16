@@ -1,5 +1,5 @@
 <?php
-
+use App\Train;
 use Illuminate\Database\Seeder;
 
 class TrainsTableSeeder extends Seeder
@@ -9,8 +9,10 @@ class TrainsTableSeeder extends Seeder
      *
      * @return void
      */
-    public function run()
+    public function run(Faker $faker)
     {
-        //
+        for ($i=0; $i < 50; $i++) { 
+            $newTrain 
+        }
     }
 }
